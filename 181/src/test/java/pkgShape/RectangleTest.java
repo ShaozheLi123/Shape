@@ -96,6 +96,7 @@ public class RectangleTest {
 		reclist2.add(rec3);
 		reclist2.add(rec2);
 		assertEquals(reclist,reclist);
+		
 	
 	}
 		
