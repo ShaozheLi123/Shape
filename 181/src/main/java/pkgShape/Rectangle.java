@@ -1,6 +1,6 @@
 package pkgShape;
 
-import java.util.*; 
+import java.util.*;
 
 public class Rectangle extends Shape {
 	private int iWidth;
@@ -8,6 +8,8 @@ public class Rectangle extends Shape {
 
 	public Rectangle (int iWidth, int iLength) {
 		super();
+		this.iWidth = iWidth;
+		this.iLength = iLength;
 	}
 	
 	@Override
